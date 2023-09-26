@@ -1,0 +1,42 @@
+/* error.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.texttask.completed {
+  font-style: italic;
+  color: red;
+}
+
+.error-container {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.error-title {
+  color: #f00;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.error-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  font-size: 1.2em;
+}
